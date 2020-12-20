@@ -1,0 +1,19 @@
+body {
+    background: black;
+}
+
+.title {
+    height: 50px;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    background: #35363a;
+    position: relative;
+    height: 150vh;
+    width: 150vh;
+}
+
