@@ -1,11 +1,21 @@
+var newDate = new Date();
+  var nowDate = moment().format('MMMM Do YYYY, h:mm:ss a');
+  var displayDate = document.getElementById('currentDay');
+  displayDate.innerHTML = nowDate;
+//   Variables for time
+  var m = moment();
+  var nowTime = m.format('LTS');
+  var nowHour = newDate.getHours();
+
+
 // API Key for OpenWeather
 const apiKey = 'b7b1f0ad70509ca23301b5728eb11e20';
 
 // Search button event listener
-$( '#search-button' ).click(searchButton);
+$( '#search-btn' ).click(searchButton);
 // Function for city input field and search button
 function searchButton() {
-    let citySearch = $('#city-search');
+    let citySearch = $('#search-field');
     let cityChoice = citySearch.val();
     citySearch.val('');
     cityWeatherInfo(cityChoice);
@@ -26,11 +36,9 @@ function displayWeather(data) {
     var wind = data.wind.speed;
     var displayInfo = `
             <h2>${city}</h2>
-            <p>temp: ${temp}&deg;F</p>
-            <p>humidity: ${humid}%</p>
-            <p>wind speed: ${wind}mph</p>
+            <p>Temp: ${temp}&deg;F</p>
+            <p>Humidity: ${humid}%</p>
+            <p>Wind Speed: ${wind}mph</p>
         `;
-    $("#temp-display").html(displayInfo);
+    $(".two").html(displayInfo);
 }
-
-
