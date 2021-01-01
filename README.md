@@ -30,21 +30,21 @@ This application meets the following criteria:
 
 ## Homepage
 
-![Homepage](./assets/images/home.png)
+![Homepage](https://github.com/sloanlacey/weather-dashboard/blob/main/Assets/Images/home.png)
 
 ## Five-Day Forecast Page
 
-![Forecast Page](./assets/images/fiveday.png)
+![Forecast Page](https://github.com/sloanlacey/weather-dashboard/blob/main/Assets/Images/fiveday.png)
 
 ## Saved City Buttons
 
-![Saved City Buttons](./assets/images/savedcitybuttons.png)
+![Saved City Buttons](https://github.com/sloanlacey/weather-dashboard/blob/main/Assets/Images/savedcitybuttons.png)
 
 ## Technologies
 
 This project is created with:
 
--[JavaScript](https://www.javascript.com/)
+- [JavaScript](https://www.javascript.com/)
 
 - [HTML](https://html.com/)
 
@@ -58,4 +58,4 @@ This project is created with:
 
 ## Author
 
-- Sloan Lacey
+- [Sloan Lacey](https://github.com/sloanlacey/weather-dashboard)
