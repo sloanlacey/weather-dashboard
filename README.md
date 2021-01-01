@@ -1,6 +1,6 @@
 # Weather-Dashboard by Sloan Lacey
 
-Weather dashboard app that allows users to search for 5-day forecasts by city.
+This is a weather dashboard app that allows users to search for 5-day forecasts by city. Once a user has chosen a city, the current and five-day forecast will display including the UV index rating, and icons indicating weather patterns. Once a user leaves and then re-opens the page, the previously saved buttons will be on the homepage ready to be re-opened with a click.
 
 ## Table of contents
 - [General Info](#general-info)
