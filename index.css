@@ -1,0 +1,72 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #eef3db;
+}
+
+.container {
+    background-color: #eef3db;
+}
+
+#h3 {
+    color: #010d00;
+    margin-top: 25px;
+}
+
+.row-1 {
+    height: 125px;
+    text-align: center;
+    background-color: #4d6466;
+    color: #010D00;
+}
+
+.row-2 {
+    background-color: #eef3db;
+}
+
+    
+.favorable {
+    color: #98fb98;
+}
+    
+.moderate {
+    color: #FDFD96;
+}
+    
+.severe {
+    color: #ff6961 !important;    
+}
+
+#card-list {
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+    
+.list-group {
+    margin-top: 10px;
+}
+    
+.list-group-item {
+    height: 65px; 
+    border: 1px solid #010d00 !important;
+    color: #010d00 !important;
+    background-color: #fe615a !important; 
+    margin-bottom: 25px !important;  
+    margin-top: 20px !important;
+}
+    
+.boxes {
+    background-color: #4d6466;
+    color: #010d00;
+    font-size: 1rem;
+    height: 300px;
+    width: 200px;
+    margin-left: 10px;
+}
+    
+#row-cards {
+    margin-top: 100px;
+}
